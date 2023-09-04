@@ -1,0 +1,1 @@
+jdk目录下src.zip解压后拿到src文件夹。设置中去掉勾选stepping->do not step into the classes。project structure->sdks->jdk1.8->sourcepath去掉原来的zip，换成解压后的文件夹,这样就可以在源码中添加注释了(**但是暂时不能修改源码，包括注释导致的换行等，因为要使用修改过后的jdk需要对jdk进行编译**)
